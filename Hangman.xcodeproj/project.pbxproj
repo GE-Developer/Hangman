@@ -3,23 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE500887268A416100E492F9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE500886268A416100E492F9 /* ButtonView.swift */; };
 		EE600AFF2688B5A300473A76 /* HangmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE600AFE2688B5A300473A76 /* HangmanApp.swift */; };
 		EE600B012688B5A300473A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE600B002688B5A300473A76 /* ContentView.swift */; };
 		EE600B032688B5A400473A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE600B022688B5A400473A76 /* Assets.xcassets */; };
 		EE600B062688B5A400473A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE600B052688B5A400473A76 /* Preview Assets.xcassets */; };
+		EE600B0E2688BA6C00473A76 /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE600B0D2688BA6C00473A76 /* LetterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE500886268A416100E492F9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		EE600AFB2688B5A300473A76 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE600AFE2688B5A300473A76 /* HangmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanApp.swift; sourceTree = "<group>"; };
 		EE600B002688B5A300473A76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE600B022688B5A400473A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE600B052688B5A400473A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE600B072688B5A400473A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE600B0D2688BA6C00473A76 /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				EE600AFE2688B5A300473A76 /* HangmanApp.swift */,
 				EE600B002688B5A300473A76 /* ContentView.swift */,
+				EE500886268A416100E492F9 /* ButtonView.swift */,
+				EE600B0D2688BA6C00473A76 /* LetterView.swift */,
 				EE600B022688B5A400473A76 /* Assets.xcassets */,
 				EE600B072688B5A400473A76 /* Info.plist */,
 				EE600B042688B5A400473A76 /* Preview Content */,
@@ -104,7 +110,7 @@
 				};
 			};
 			buildConfigurationList = EE600AF62688B5A300473A76 /* Build configuration list for PBXProject "Hangman" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -140,6 +146,8 @@
 			files = (
 				EE600B012688B5A300473A76 /* ContentView.swift in Sources */,
 				EE600AFF2688B5A300473A76 /* HangmanApp.swift in Sources */,
+				EE500887268A416100E492F9 /* ButtonView.swift in Sources */,
+				EE600B0E2688BA6C00473A76 /* LetterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Hangman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GE-Developer.Hangman";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
